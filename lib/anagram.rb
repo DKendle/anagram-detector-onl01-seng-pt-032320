@@ -11,7 +11,7 @@ class Anagram
   
   def self.match
     
-    @@words.detect {|words| }
+    @@words.detect {|words|  }
   end
   
 end
