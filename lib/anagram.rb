@@ -12,9 +12,9 @@ class Anagram
     new_array = []
     array.each do |element| 
       if @word.split("") == (words.split("")
-        new_array << 
+        new_array << element
     end
-    
+    new_array
   end
 
   
