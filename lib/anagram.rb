@@ -9,9 +9,9 @@ class Anagram
   end
   
   
-  def self.match
+  def match
     
-    @@words.detect {|words|  }
+    @@words.detect {|words| [a].sort == [b].sort }
   end
   
 end
