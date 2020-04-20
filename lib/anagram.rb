@@ -11,7 +11,7 @@ class Anagram
   def match(array)
     new_array = []
     array.each do |element| 
-      if @word.split("") == (words.split("")
+      if @word.split("") == words.split("")
         new_array << element
       end
     end
