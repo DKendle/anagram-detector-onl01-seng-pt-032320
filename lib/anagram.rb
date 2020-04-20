@@ -11,6 +11,7 @@ class Anagram
   def match(array)
     array.select {|words| @word.split("") == words.split("")}
   end
+  end
 
   
 end
