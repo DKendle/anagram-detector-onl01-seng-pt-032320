@@ -12,6 +12,7 @@ class Anagram
     array.select do |words| 
       (@word.split("")) == (words.split(""))
     end
+    
   end
 
   
