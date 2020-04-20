@@ -3,7 +3,7 @@ class Anagram
   
   @@words = []
   
-  def initialize
+  def initialize(word)
     @word = word
     @@words << self
   end
